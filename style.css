@@ -50,9 +50,10 @@ p {
   overflow: hidden;
   margin: 20px;
   padding: 20px;
+  max-width: 375px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 800px) {
   .card {
     width: 450px;
     margin-left: auto;
